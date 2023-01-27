@@ -1,8 +1,8 @@
 # Pr1_Java
 
-Java Projects coded with InteliJ and Eclipse.
-
 ![hero](https://upload.wikimedia.org/wikipedia/commons/e/e9/Java-Debugging-Tips-881x441.jpg)
+
+Java Projects coded with InteliJ and Eclipse.
 
 https://www.java.com/de/
 
