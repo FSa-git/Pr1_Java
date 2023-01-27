@@ -29,4 +29,4 @@ class ADV_JAVA {
 
 ## Viewcounter
 
-[![Image of https://github.com/FSa-git/myFirstViewCounter](https://github.com/FSa-git/myFirstViewCounter/blob/master/svg/profile/badge.svg)](https://github.com/FSa-git/myFirstViewCounter)
+[![Totals Hits](https://komarev.com/ghpvc/?username=FSa-git&style=flat&color=blue&label=Total + Views)
