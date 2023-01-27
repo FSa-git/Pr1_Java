@@ -4,6 +4,19 @@
 
 [Java](https://www.java.com/de/) Projects coded with [IntelliJ](https://www.jetbrains.com/idea/download/#section=linux) and [Eclipse](https://www.eclipse.org/downloads/).
 
+```dart
+// tools_I_use 
+class ADV_JAVA { 
+  const myTools = {  
+    "ProgramingLanguages" : { "Java" },
+    "OtherLanguages" : { "HTML", "CSS" },
+    "Editors" : { "Vscode", "Eclipse", "IntelliJ" },
+    "Platforms" : { "MacOS", "Windows" },
+    "OtherTools" : { "Git", "Illustrator", "Photoshop", "Lightroom" }
+  };
+}
+```
+
 ## About
 - All Exercises from Uni 
 - Homeworks 
