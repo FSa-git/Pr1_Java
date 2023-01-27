@@ -1,10 +1,8 @@
-# Pr1_Java
+# Learning Java
 
 ![hero](https://upload.wikimedia.org/wikipedia/commons/e/e9/Java-Debugging-Tips-881x441.jpg)
 
-Java Projects coded with [IntelliJ](https://www.jetbrains.com/idea/download/#section=linux) and [Eclipse](https://www.eclipse.org/downloads/).
-
-[Java](https://www.java.com/de/)
+[Java](https://www.java.com/de/) Projects coded with [IntelliJ](https://www.jetbrains.com/idea/download/#section=linux) and [Eclipse](https://www.eclipse.org/downloads/).
 
 ## About
 - All Exercises from Uni 
