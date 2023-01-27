@@ -29,4 +29,4 @@ class ADV_JAVA {
 
 ## Viewcounter
 
-![Totals Hits](https://komarev.com/ghpvc/?username=FSa-git/Pr1_Java&style=flat&color=orange&label=VIEWS)
+![Totals Hits](https://komarev.com/ghpvc/?username=FSa-git&style=flat&color=orange&label=VIEWS)
