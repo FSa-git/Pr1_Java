@@ -5,7 +5,7 @@
 [Java](https://www.java.com/de/) Projects coded with [IntelliJ](https://www.jetbrains.com/idea/download/#section=linux) and [Eclipse](https://www.eclipse.org/downloads/).
 
 ```dart
-// tools_I_use 
+// About this repo
 class ADV_JAVA { 
   const myTools = {  
     "ProgramingLanguages" : { "Java" },
@@ -29,4 +29,4 @@ class ADV_JAVA {
 
 ## Viewcounter
 
-[![Totals Hits](https://komarev.com/ghpvc/?username=FSa-git&style=flat&color=orange&label=VIEWS)
+![Totals Hits](https://komarev.com/ghpvc/?username=FSa-git/Pr1_Java&style=flat&color=orange&label=VIEWS)
