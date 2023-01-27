@@ -4,7 +4,7 @@
 
 Java Projects coded with InteliJ and Eclipse.
 
-([Java](https://www.java.com/de/))
+[Java](https://www.java.com/de/)
 
 ## About
 - All Exercises from Uni 
