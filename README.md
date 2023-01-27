@@ -16,4 +16,6 @@ https://www.java.com/de/
 - [ ] Arrays
 - [ ] Rekursive
 
-<!-- Hier kommt noch der Viewcounter -->
+## Viewcounter
+
+[![Image of https://github.com/FSa-git/myFirstViewCounter](https://github.com/FSa-git/myFirstViewCounter/blob/master/svg/profile/badge.svg)](https://github.com/FSa-git/myFirstViewCounter)
