@@ -21,6 +21,7 @@ class ADV_JAVA {
 - All Exercises from Uni 
 - Homeworks 
 - Practice Projects
+- Working with ![Eclipse](https://img.shields.io/badge/ECLIPSE-2C2255.svg?&style=flat&logo=eclipse)&nbsp;
 - Etc.
 
 ## Topics 
