@@ -21,7 +21,7 @@ public class Punkt {
     }
 
     /**
-     * Distanz zwischen 2 Punkte berchnen
+     * Distanz zwischen 2 Punkte berchnen // oder auch: diese Methode addiert 2 Punkte
      * 
      * @param p1 Punkt p1
      * @param p2 Punkt p2
