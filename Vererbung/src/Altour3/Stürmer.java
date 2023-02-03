@@ -1,5 +1,5 @@
 package Altour3;
 
-public class Stürmer {
+public class Stürmer extends Fussball{
 
 }
