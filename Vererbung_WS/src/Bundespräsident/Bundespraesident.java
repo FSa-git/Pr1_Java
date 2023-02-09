@@ -4,10 +4,9 @@ public class Bundespraesident extends Kunde {
 
 	private int rabattProzent;
 
-	public Bundespraesident(int rabattProzent, String name, int kontonummer) {
-		super(name, kontonummer);
+	public Bundespraesident(String name, int rabattProzent) {
+		super(name);
 		this.rabattProzent = rabattProzent;
-		this.getRabattProzent();
 	}
 
 	public int getRabattProzent() {

@@ -6,10 +6,9 @@ public class Kunde {
 	protected int kontonummer;
 	
 	
-	public Kunde(String name, int kontonummer) {
+	public Kunde(String name) {
 		super();
 		this.name = name;
-		this.kontonummer = kontonummer;
 	}
 	
 	
