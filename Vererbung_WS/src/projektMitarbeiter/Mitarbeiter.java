@@ -43,6 +43,9 @@ public class Mitarbeiter {
 		this.name = name;
 	}
 
+	public void gehaltErhoehen(double betrag) {
+		this.gehalt += betrag;
+	}
 	
 	
 	

@@ -1,4 +1,4 @@
-package projektMitarbeiter;
+package projektMitarbeiter; // Start Mitarbeiter
 
 public class TestKlasse {
 
@@ -9,6 +9,7 @@ public class TestKlasse {
 		Mitarbeiter Dit = new Mitarbeiter("Dietrich","Hans-Martin",1650.00);
 		Fuehrungskraft Krp = new Fuehrungskraft("Krapper", "Joachim", 4000.00);
 		Hausmeister Darwich = new Hausmeister();
+		
 		Auszubildender SvenVogel = new Auszubildender("Sven", "Vogel", 400.00 ,"Verkäufer",2);
 		
 		System.out.println(Krp.position);

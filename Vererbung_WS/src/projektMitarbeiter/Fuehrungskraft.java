@@ -6,7 +6,6 @@ public class Fuehrungskraft extends Mitarbeiter {
 	
 	public Fuehrungskraft() {
 		super(); // Immer erster Aufruf 
-		// TODO Auto-generated constructor stub
 	}
 
 	// Generate Constructor using Superclass..
@@ -16,13 +15,13 @@ public class Fuehrungskraft extends Mitarbeiter {
 		position = "A Boss";
 	}
 
-	public String getPosition() {
-		return position;
-	}
-
-	public void setPosition(String position) {
-		this.position = position;
-	}
+//	public String getPosition() {
+//		return position;
+//	}
+//
+//	public void setPosition(String position) {
+//		this.position = position;
+//	}
 	
 
 }

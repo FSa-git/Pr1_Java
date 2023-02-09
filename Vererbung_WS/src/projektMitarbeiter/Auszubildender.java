@@ -7,19 +7,21 @@ public class Auszubildender extends Mitarbeiter{
 	protected String ausbildungsberuf;
 	protected int ausbildungsjahr;
 	
-	public Auszubildender() {
+	
+	/* 
+	 *
+	 * public Auszubildender() {
 		super(); 
 	}
+	*
+	*/
 	
-
-
+	
 	public Auszubildender(String name, String vorname, double gehalt, String ausbildungsberuf, int ausbildungsjahr) {
 		super(name, vorname, gehalt);
 		this.ausbildungsberuf = ausbildungsberuf;
 		this.ausbildungsjahr = ausbildungsjahr;
 	}
-
-
 
 	public String getAusbildungsberuf() {
 		return ausbildungsberuf;
