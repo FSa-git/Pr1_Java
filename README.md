@@ -8,11 +8,11 @@
 // About this repo
 class ADV_JAVA { 
   const myTools = {  
-    "ProgramingLanguages" : { "Java" },
-    "OtherLanguages" : { "HTML", "CSS" },
-    "Editors" : { "Vscode", "Eclipse", "IntelliJ" },
-    "Platforms" : { "MacOS", "Windows" },
-    "OtherTools" : { "Git", "Illustrator", "Photoshop", "Lightroom" }
+    "ProgramingLanguage" : { "Java" },
+    "Tpoics" : { "Inheritance", "OverloadingMethods"},
+    "Editors" : {"Eclipse", "IntelliJ" },
+    "OS" : { "MacOS", "Windows" },
+    "OtherTools" : { "Git"}
   };
 }
 ```
@@ -27,6 +27,9 @@ class ADV_JAVA {
 ## Topics 
 - [ ] Arrays
 - [ ] Rekursive
+- [ ] Overloading Methods
+- [ ] Enumerations
+- [ ] Inheritance
 
 ## Viewcounter
 
