@@ -8,12 +8,12 @@ public class Pizza {
 	private float preis = 12.50f;
 	
 	
-//	public Pizza(String name, float preis) {
-//		super();
-//		this.name = name;
-//		this.preis = preis;
-//	}
-//	
+	public Pizza(String name, float preis) {
+		super();
+		this.name = name;
+		this.preis = preis;
+	}
+	
 	public String getName() {
 		return name;
 	}

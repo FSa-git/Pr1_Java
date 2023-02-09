@@ -5,11 +5,13 @@ public class PizzaSpecial2012 extends Pizza {
 	private String saucentyp;
 	private int schaerfegrad;
 	
-	public PizzaSpecial2012(String name, float preis) {
-		super(name, preis);
-		// TODO Auto-generated constructor stub
-	}
 	
+	
+	public PizzaSpecial2012(String saucentyp, int schaerfegrad, String name, float preis) {
+		super(name, preis);
+		this.saucentyp = saucentyp;
+		this.schaerfegrad = schaerfegrad;
+	}
 	public String getSaucentyp() {
 		return saucentyp;
 	}

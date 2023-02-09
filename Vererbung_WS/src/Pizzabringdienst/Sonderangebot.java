@@ -8,7 +8,7 @@ public class Sonderangebot extends Pizza {
 		super(name, preis);
 		// TODO Auto-generated constructor stub
 	}
-	
+
 	public float getRabatt() {
 		return rabatt;
 	}
