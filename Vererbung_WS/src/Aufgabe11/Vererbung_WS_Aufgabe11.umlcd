@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_6ai3wKkREe2V7tzBQG5zPQ">
+  <modelElement href="Vererbung_WS.uml#_6AlfoKkREe2V7tzBQG5zPQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_HL4cQKkSEe2V7tzBQG5zPQ" sourceAnchor="273.0,0.0" targetAnchor="246.0,97.0" superClass="_7k1goKkREe2V7tzBQG5zPQ" subClass="_7kp6cKkREe2V7tzBQG5zPQ">
+    <modelElement href="Vererbung_WS.uml#_HLKDgKkSEe2V7tzBQG5zPQ"/>
+    <bendpoints xmi:id="_gledkKkZEe2V7tzBQG5zPQ" sourceY="-30" targetX="-261" targetY="174"/>
+    <bendpoints xmi:id="_glfrsKkZEe2V7tzBQG5zPQ" sourceX="261" sourceY="-30" targetY="174"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_EbBMQKkUEe2V7tzBQG5zPQ" sourceAnchor="184.0,0.0" targetAnchor="246.0,97.0" superClass="_7k1goKkREe2V7tzBQG5zPQ" subClass="_7kMncKkREe2V7tzBQG5zPQ">
+    <modelElement href="Vererbung_WS.uml#_EaH0YKkUEe2V7tzBQG5zPQ"/>
+    <bendpoints xmi:id="_glfrsakZEe2V7tzBQG5zPQ" sourceY="-32" targetX="265" targetY="174"/>
+    <bendpoints xmi:id="_glfrsqkZEe2V7tzBQG5zPQ" sourceX="-265" sourceY="-32" targetY="174"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_7k1goKkREe2V7tzBQG5zPQ" name="Schulverwaltungssoftware" subclassedBy="_HL4cQKkSEe2V7tzBQG5zPQ _EbBMQKkUEe2V7tzBQG5zPQ">
+    <modelElement href="Vererbung_WS.uml#_6BLVgKkREe2V7tzBQG5zPQ"/>
+    <visualProperties xmi:id="_7k1goakREe2V7tzBQG5zPQ" position="364.0,26.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_7k1goqkREe2V7tzBQG5zPQ" label="+"/>
+    <attributes xmi:id="_7k1go6kREe2V7tzBQG5zPQ" name="name">
+      <modelElement href="Vererbung_WS.uml#_6BXiwKkREe2V7tzBQG5zPQ"/>
+      <stereotypes xmi:id="_7k1gpKkREe2V7tzBQG5zPQ" name="LegacyStyledElement">
+        <modelElement href="Vererbung_WS.uml#_6BjI8KkREe2V7tzBQG5zPQ"/>
+      </stereotypes>
+      <visibility xmi:id="_7k1gpakREe2V7tzBQG5zPQ" label="-"/>
+      <cardinality xmi:id="_7k1gpqkREe2V7tzBQG5zPQ" label="1" max="1" min="1"/>
+      <type xmi:id="_7k1gp6kREe2V7tzBQG5zPQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_7k1gqKkREe2V7tzBQG5zPQ" name="alter">
+      <modelElement href="Vererbung_WS.uml#_6B6VUKkREe2V7tzBQG5zPQ"/>
+      <stereotypes xmi:id="_7k1gqakREe2V7tzBQG5zPQ" name="LegacyStyledElement">
+        <modelElement href="Vererbung_WS.uml#_6CBqEKkREe2V7tzBQG5zPQ"/>
+      </stereotypes>
+      <visibility xmi:id="_7k1gqqkREe2V7tzBQG5zPQ" label="-"/>
+      <cardinality xmi:id="_7k1gq6kREe2V7tzBQG5zPQ" label="1" max="1" min="1"/>
+      <type xmi:id="_7k1grKkREe2V7tzBQG5zPQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_xbmxYKkSEe2V7tzBQG5zPQ" name="Schulverwaltungssoftware">
+      <modelElement href="Vererbung_WS.uml#_xbTPYKkSEe2V7tzBQG5zPQ"/>
+      <keywords xmi:id="_xbnYcKkSEe2V7tzBQG5zPQ" keyword="create"/>
+      <visibility xmi:id="_xbnYcakSEe2V7tzBQG5zPQ" label="+"/>
+      <cardinality xmi:id="_xbnYcqkSEe2V7tzBQG5zPQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_xbnYc6kSEe2V7tzBQG5zPQ">
+        <modelElement href="Vererbung_WS.uml#_xbWSsakSEe2V7tzBQG5zPQ"/>
+        <type xmi:id="_xbnYdKkSEe2V7tzBQG5zPQ" name="Schulverwaltungssoftware">
+          <modelElement href="Vererbung_WS.uml#_6BLVgKkREe2V7tzBQG5zPQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_xbnYdakSEe2V7tzBQG5zPQ" name="name">
+        <modelElement href="Vererbung_WS.uml#_xbVroKkSEe2V7tzBQG5zPQ"/>
+        <cardinality xmi:id="_xbnYdqkSEe2V7tzBQG5zPQ" label="1" max="1" min="1"/>
+        <type xmi:id="_xbnYd6kSEe2V7tzBQG5zPQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_xbnYeKkSEe2V7tzBQG5zPQ" name="alter">
+        <modelElement href="Vererbung_WS.uml#_xbWSsKkSEe2V7tzBQG5zPQ"/>
+        <cardinality xmi:id="_xbnYeakSEe2V7tzBQG5zPQ" label="1" max="1" min="1"/>
+        <type xmi:id="_xbnYeqkSEe2V7tzBQG5zPQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_7kp6cKkREe2V7tzBQG5zPQ" name="Schueler" generalizations="_HL4cQKkSEe2V7tzBQG5zPQ">
+    <modelElement href="Vererbung_WS.uml#_6BHEEKkREe2V7tzBQG5zPQ"/>
+    <visualProperties xmi:id="_7kp6cakREe2V7tzBQG5zPQ" position="76.0,327.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_7kp6cqkREe2V7tzBQG5zPQ" label="+"/>
+    <attributes xmi:id="_YgnTcKkSEe2V7tzBQG5zPQ" name="klassenstufe">
+      <modelElement href="Vererbung_WS.uml#_YgVmoKkSEe2V7tzBQG5zPQ"/>
+      <visibility xmi:id="_YgnTcqkSEe2V7tzBQG5zPQ" label="+"/>
+      <cardinality xmi:id="_YgnTc6kSEe2V7tzBQG5zPQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YgnTdKkSEe2V7tzBQG5zPQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YgnTdakSEe2V7tzBQG5zPQ" name="beitrag">
+      <modelElement href="Vererbung_WS.uml#_YgbGMKkSEe2V7tzBQG5zPQ"/>
+      <visibility xmi:id="_YgnTd6kSEe2V7tzBQG5zPQ" label="+"/>
+      <cardinality xmi:id="_YgnTeKkSEe2V7tzBQG5zPQ" label="1" max="1" min="1"/>
+      <type xmi:id="_YgnTeakSEe2V7tzBQG5zPQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_yf1uMKkVEe2V7tzBQG5zPQ" name="uFach">
+      <modelElement href="Vererbung_WS.uml#_yftLUKkVEe2V7tzBQG5zPQ"/>
+      <stereotypes xmi:id="_yf1uMakVEe2V7tzBQG5zPQ" name="LegacyStyledElement">
+        <modelElement href="Vererbung_WS.uml#_yfvAgKkVEe2V7tzBQG5zPQ"/>
+      </stereotypes>
+      <visibility xmi:id="_yf1uMqkVEe2V7tzBQG5zPQ" label="-"/>
+      <cardinality xmi:id="_yf1uM6kVEe2V7tzBQG5zPQ" label="1" max="1" min="1"/>
+      <type xmi:id="_yf1uNKkVEe2V7tzBQG5zPQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_9vFN0KkVEe2V7tzBQG5zPQ" name="Schueler">
+      <modelElement href="Vererbung_WS.uml#_9qgP0KkVEe2V7tzBQG5zPQ"/>
+      <keywords xmi:id="_9vFN0akVEe2V7tzBQG5zPQ" keyword="create"/>
+      <visibility xmi:id="_9vFN0qkVEe2V7tzBQG5zPQ" label="+"/>
+      <cardinality xmi:id="_9vFN06kVEe2V7tzBQG5zPQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9vFN1KkVEe2V7tzBQG5zPQ">
+        <modelElement href="Vererbung_WS.uml#_9qhd9KkVEe2V7tzBQG5zPQ"/>
+        <type xmi:id="_9vFN1akVEe2V7tzBQG5zPQ" name="Schueler">
+          <modelElement href="Vererbung_WS.uml#_6BHEEKkREe2V7tzBQG5zPQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_9vFN1qkVEe2V7tzBQG5zPQ" name="name">
+        <modelElement href="Vererbung_WS.uml#_9qg24KkVEe2V7tzBQG5zPQ"/>
+        <cardinality xmi:id="_9vFN16kVEe2V7tzBQG5zPQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9vFN2KkVEe2V7tzBQG5zPQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9vFN2akVEe2V7tzBQG5zPQ" name="alter">
+        <modelElement href="Vererbung_WS.uml#_9qhd8KkVEe2V7tzBQG5zPQ"/>
+        <cardinality xmi:id="_9vFN2qkVEe2V7tzBQG5zPQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9vFN26kVEe2V7tzBQG5zPQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9vFN3KkVEe2V7tzBQG5zPQ" name="uFach">
+        <modelElement href="Vererbung_WS.uml#_9qhd8akVEe2V7tzBQG5zPQ"/>
+        <cardinality xmi:id="_9vFN3akVEe2V7tzBQG5zPQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9vFN3qkVEe2V7tzBQG5zPQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9vFN36kVEe2V7tzBQG5zPQ" name="klassenstufe">
+        <modelElement href="Vererbung_WS.uml#_9qhd8qkVEe2V7tzBQG5zPQ"/>
+        <cardinality xmi:id="_9vFN4KkVEe2V7tzBQG5zPQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9vFN4akVEe2V7tzBQG5zPQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9vFN4qkVEe2V7tzBQG5zPQ" name="beitrag">
+        <modelElement href="Vererbung_WS.uml#_9qhd86kVEe2V7tzBQG5zPQ"/>
+        <cardinality xmi:id="_9vFN46kVEe2V7tzBQG5zPQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9vFN5KkVEe2V7tzBQG5zPQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_7kMncKkREe2V7tzBQG5zPQ" name="Lehrer" generalizations="_EbBMQKkUEe2V7tzBQG5zPQ">
+    <modelElement href="Vererbung_WS.uml#_6AyT8KkREe2V7tzBQG5zPQ"/>
+    <visualProperties xmi:id="_7kNOgKkREe2V7tzBQG5zPQ" position="691.0,329.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_7kN1kKkREe2V7tzBQG5zPQ" label="+"/>
+    <attributes xmi:id="_Ear1EKkUEe2V7tzBQG5zPQ" name="uFach">
+      <modelElement href="Vererbung_WS.uml#_EaMF0KkUEe2V7tzBQG5zPQ"/>
+      <stereotypes xmi:id="_Ear1EakUEe2V7tzBQG5zPQ" name="LegacyStyledElement">
+        <modelElement href="Vererbung_WS.uml#_EaMs4KkUEe2V7tzBQG5zPQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Ear1EqkUEe2V7tzBQG5zPQ" label="-"/>
+      <cardinality xmi:id="_Ear1E6kUEe2V7tzBQG5zPQ" label="1" max="1" min="1"/>
+      <type xmi:id="_EascIKkUEe2V7tzBQG5zPQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_EaQXQKkUEe2V7tzBQG5zPQ" name="Lehrer">
+      <modelElement href="Vererbung_WS.uml#_EaJpkKkUEe2V7tzBQG5zPQ"/>
+      <keywords xmi:id="_EaQXQakUEe2V7tzBQG5zPQ" keyword="create"/>
+      <visibility xmi:id="_EaQXQqkUEe2V7tzBQG5zPQ" label="+"/>
+      <cardinality xmi:id="_EaQXQ6kUEe2V7tzBQG5zPQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EaQXRKkUEe2V7tzBQG5zPQ">
+        <modelElement href="Vererbung_WS.uml#_EaKQoqkUEe2V7tzBQG5zPQ"/>
+        <type xmi:id="_EaQ-UKkUEe2V7tzBQG5zPQ" name="Lehrer">
+          <modelElement href="Vererbung_WS.uml#_6AyT8KkREe2V7tzBQG5zPQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_EaQ-VKkUEe2V7tzBQG5zPQ" name="alter">
+        <modelElement href="Vererbung_WS.uml#_EaKQoKkUEe2V7tzBQG5zPQ"/>
+        <cardinality xmi:id="_EaQ-VakUEe2V7tzBQG5zPQ" label="1" max="1" min="1"/>
+        <type xmi:id="_EaQ-VqkUEe2V7tzBQG5zPQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EaQ-V6kUEe2V7tzBQG5zPQ" name="uFach">
+        <modelElement href="Vererbung_WS.uml#_EaKQoakUEe2V7tzBQG5zPQ"/>
+        <cardinality xmi:id="_EaQ-WKkUEe2V7tzBQG5zPQ" label="1" max="1" min="1"/>
+        <type xmi:id="_EaQ-WakUEe2V7tzBQG5zPQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xKxRUKkYEe2V7tzBQG5zPQ" name="getuFach">
+      <modelElement href="Vererbung_WS.uml#_xKlrIKkYEe2V7tzBQG5zPQ"/>
+      <visibility xmi:id="_xKx4YKkYEe2V7tzBQG5zPQ" label="+"/>
+      <cardinality xmi:id="_xKx4YakYEe2V7tzBQG5zPQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_xKx4YqkYEe2V7tzBQG5zPQ">
+        <modelElement href="Vererbung_WS.uml#_xKpVgKkYEe2V7tzBQG5zPQ"/>
+        <type xmi:id="_xKx4Y6kYEe2V7tzBQG5zPQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_xLBI8KkYEe2V7tzBQG5zPQ" name="setuFach">
+      <modelElement href="Vererbung_WS.uml#_xKp8kKkYEe2V7tzBQG5zPQ"/>
+      <visibility xmi:id="_xLBI8akYEe2V7tzBQG5zPQ" label="+"/>
+      <cardinality xmi:id="_xLBI8qkYEe2V7tzBQG5zPQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_xLBI86kYEe2V7tzBQG5zPQ" name="uFach">
+        <modelElement href="Vererbung_WS.uml#_xKp8kakYEe2V7tzBQG5zPQ"/>
+        <cardinality xmi:id="_xLBI9KkYEe2V7tzBQG5zPQ" label="1" max="1" min="1"/>
+        <type xmi:id="_xLBI9akYEe2V7tzBQG5zPQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

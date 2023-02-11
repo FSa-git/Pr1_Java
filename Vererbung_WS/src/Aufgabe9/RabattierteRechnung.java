@@ -10,7 +10,7 @@ public class RabattierteRechnung extends Rechnung {
 	}
 
 	protected double bruttobetragBerechnen() {
-		double betrag;
+		double betrag = 0;
 		betrag = this.gesamtbetrag + this.gesamtbetrag * this.mehrwertsteuer;
 		return betrag;
 	}

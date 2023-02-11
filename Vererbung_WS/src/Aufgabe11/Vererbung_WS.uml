@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_5wDwUKkREe2V7tzBQG5zPQ" name="Vererbung_WS">
+    <eAnnotations xmi:id="_51Bv4KkREe2V7tzBQG5zPQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_51EMIKkREe2V7tzBQG5zPQ" source="codegen">
+        <details xmi:id="_51FaQKkREe2V7tzBQG5zPQ" key="codegenDirectory" value="/Vererbung_WS/src"/>
+        <details xmi:id="_6WgsUKkREe2V7tzBQG5zPQ" key="AssociatedSourceCode" value="/Vererbung_WS/src/Aufgabe11/Lehrer.java;1306299723/1;/Vererbung_WS/src/Aufgabe11/Schueler.java;78145684/1;/Vererbung_WS/src/Aufgabe11/Schulverwaltungssoftware.java;3500641661/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_6AXdMKkREe2V7tzBQG5zPQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_6Ac8wKkREe2V7tzBQG5zPQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_6Adj0KkREe2V7tzBQG5zPQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_6Adj0akREe2V7tzBQG5zPQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_6Adj0qkREe2V7tzBQG5zPQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_6Adj06kREe2V7tzBQG5zPQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_6Adj1KkREe2V7tzBQG5zPQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_6AeK4KkREe2V7tzBQG5zPQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_6AfZAKkREe2V7tzBQG5zPQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_6AlfoKkREe2V7tzBQG5zPQ" name="Aufgabe11">
+      <packagedElement xmi:type="uml:Class" xmi:id="_6AyT8KkREe2V7tzBQG5zPQ" name="Lehrer">
+        <generalization xmi:id="_EaH0YKkUEe2V7tzBQG5zPQ" general="_6BLVgKkREe2V7tzBQG5zPQ"/>
+        <ownedAttribute xmi:id="_EaMF0KkUEe2V7tzBQG5zPQ" name="uFach" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_EaNT8KkUEe2V7tzBQG5zPQ" name="Lehrer" specification="_EaJpkKkUEe2V7tzBQG5zPQ">
+          <ownedParameter xmi:id="_EaNT8akUEe2V7tzBQG5zPQ" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_EaNT8qkUEe2V7tzBQG5zPQ" name="alter">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_EaNT86kUEe2V7tzBQG5zPQ" name="uFach">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_EaNT9KkUEe2V7tzBQG5zPQ" type="_6AyT8KkREe2V7tzBQG5zPQ" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>super(name, alter);
+		this.uFach = uFach;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_xKtm8KkYEe2V7tzBQG5zPQ" name="getuFach" specification="_xKlrIKkYEe2V7tzBQG5zPQ">
+          <ownedParameter xmi:id="_xKtm8akYEe2V7tzBQG5zPQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return uFach;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_xKuOAKkYEe2V7tzBQG5zPQ" name="setuFach" specification="_xKp8kKkYEe2V7tzBQG5zPQ">
+          <ownedParameter xmi:id="_xKuOAakYEe2V7tzBQG5zPQ" name="uFach">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.uFach = uFach;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_EaJpkKkUEe2V7tzBQG5zPQ" name="Lehrer" method="_EaNT8KkUEe2V7tzBQG5zPQ">
+          <eAnnotations xmi:id="_EaKQo6kUEe2V7tzBQG5zPQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_EaK3sKkUEe2V7tzBQG5zPQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_EaKQoKkUEe2V7tzBQG5zPQ" name="alter">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_EaKQoakUEe2V7tzBQG5zPQ" name="uFach">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_EaKQoqkUEe2V7tzBQG5zPQ" type="_6AyT8KkREe2V7tzBQG5zPQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_xKlrIKkYEe2V7tzBQG5zPQ" name="getuFach" method="_xKtm8KkYEe2V7tzBQG5zPQ">
+          <ownedParameter xmi:id="_xKpVgKkYEe2V7tzBQG5zPQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_xKp8kKkYEe2V7tzBQG5zPQ" name="setuFach" method="_xKuOAKkYEe2V7tzBQG5zPQ">
+          <ownedParameter xmi:id="_xKp8kakYEe2V7tzBQG5zPQ" name="uFach">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_6BHEEKkREe2V7tzBQG5zPQ" name="Schueler">
+        <generalization xmi:id="_HLKDgKkSEe2V7tzBQG5zPQ" general="_6BLVgKkREe2V7tzBQG5zPQ"/>
+        <ownedAttribute xmi:id="_YgVmoKkSEe2V7tzBQG5zPQ" name="klassenstufe" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_YgbGMKkSEe2V7tzBQG5zPQ" name="beitrag" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_yftLUKkVEe2V7tzBQG5zPQ" name="uFach" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9qisEKkVEe2V7tzBQG5zPQ" name="Schueler" specification="_9qgP0KkVEe2V7tzBQG5zPQ">
+          <ownedParameter xmi:id="_9qisEakVEe2V7tzBQG5zPQ" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9qisEqkVEe2V7tzBQG5zPQ" name="alter">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9qisE6kVEe2V7tzBQG5zPQ" name="uFach">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9qisFKkVEe2V7tzBQG5zPQ" name="klassenstufe">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9qisFakVEe2V7tzBQG5zPQ" name="beitrag">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9qisFqkVEe2V7tzBQG5zPQ" type="_6BHEEKkREe2V7tzBQG5zPQ" direction="return"/>
+          <language>java</language>
+          <body>super(name, alter);
+		this.uFach = uFach;
+		this.klassenstufe = klassenstufe;
+		this.beitrag = beitrag;
+		
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_9qgP0KkVEe2V7tzBQG5zPQ" name="Schueler" method="_9qisEKkVEe2V7tzBQG5zPQ">
+          <eAnnotations xmi:id="_9qiFAKkVEe2V7tzBQG5zPQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_9qiFAakVEe2V7tzBQG5zPQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_9qg24KkVEe2V7tzBQG5zPQ" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9qhd8KkVEe2V7tzBQG5zPQ" name="alter">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9qhd8akVEe2V7tzBQG5zPQ" name="uFach">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9qhd8qkVEe2V7tzBQG5zPQ" name="klassenstufe">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9qhd86kVEe2V7tzBQG5zPQ" name="beitrag">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9qhd9KkVEe2V7tzBQG5zPQ" type="_6BHEEKkREe2V7tzBQG5zPQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_6BLVgKkREe2V7tzBQG5zPQ" name="Schulverwaltungssoftware">
+        <ownedAttribute xmi:id="_6BXiwKkREe2V7tzBQG5zPQ" name="name" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_6B6VUKkREe2V7tzBQG5zPQ" name="alter" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_xbYH4KkSEe2V7tzBQG5zPQ" name="Schulverwaltungssoftware" specification="_xbTPYKkSEe2V7tzBQG5zPQ">
+          <ownedParameter xmi:id="_xbYH4akSEe2V7tzBQG5zPQ" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_xbYH4qkSEe2V7tzBQG5zPQ" name="alter">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_xbYH46kSEe2V7tzBQG5zPQ" type="_6BLVgKkREe2V7tzBQG5zPQ" direction="return"/>
+          <language>java</language>
+          <body>super();
+		this.name = name;
+		this.alter = alter;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_xbTPYKkSEe2V7tzBQG5zPQ" name="Schulverwaltungssoftware" method="_xbYH4KkSEe2V7tzBQG5zPQ">
+          <eAnnotations xmi:id="_xbWSsqkSEe2V7tzBQG5zPQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_xbW5wKkSEe2V7tzBQG5zPQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_xbVroKkSEe2V7tzBQG5zPQ" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_xbWSsKkSEe2V7tzBQG5zPQ" name="alter">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_xbWSsakSEe2V7tzBQG5zPQ" type="_6BLVgKkREe2V7tzBQG5zPQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_1L-2QKkTEe2V7tzBQG5zPQ" name="Schulxverwaltungssoftware"/>
+    </packagedElement>
+    <profileApplication xmi:id="_51JEoKkREe2V7tzBQG5zPQ">
+      <eAnnotations xmi:id="_51PLQKkREe2V7tzBQG5zPQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_51VR4KkREe2V7tzBQG5zPQ" base_Package="_5wDwUKkREe2V7tzBQG5zPQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6BjI8KkREe2V7tzBQG5zPQ" base_Element="_6BXiwKkREe2V7tzBQG5zPQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6CBqEKkREe2V7tzBQG5zPQ" base_Element="_6B6VUKkREe2V7tzBQG5zPQ"/>
+  <UMLLabProfile:Reference xmi:id="_1MArcKkTEe2V7tzBQG5zPQ" base_Element="_1L-2QKkTEe2V7tzBQG5zPQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_EaMs4KkUEe2V7tzBQG5zPQ" base_Element="_EaMF0KkUEe2V7tzBQG5zPQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yfvAgKkVEe2V7tzBQG5zPQ" base_Element="_yftLUKkVEe2V7tzBQG5zPQ"/>
+</xmi:XMI>
