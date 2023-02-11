@@ -8,11 +8,11 @@
 // About this repo
 class ADV_JAVA { 
   const myTools = {  
-    "ProgramingLanguages" : { "Java" },
-    "OtherLanguages" : { "HTML", "CSS" },
-    "Editors" : { "Vscode", "Eclipse", "IntelliJ" },
-    "Platforms" : { "MacOS", "Windows" },
-    "OtherTools" : { "Git", "Illustrator", "Photoshop", "Lightroom" }
+    "ProgramingLanguage" : { "Java" },
+    "Tpoics" : { "Inheritance", "OverloadingMethods"},
+    "Editors" : {"Eclipse", "IntelliJ" },
+    "OS" : { "MacOS", "Windows" },
+    "OtherTools" : { "Git"}
   };
 }
 ```
@@ -22,11 +22,13 @@ class ADV_JAVA {
 - Homeworks 
 - Practice Projects
 - Working with  ![Eclipse](https://img.shields.io/badge/ECLIPSE-2C2255.svg?&style=flat&logo=eclipse)&nbsp;
-- Etc.
 
 ## Topics 
 - [ ] Arrays
 - [ ] Rekursive
+- [ ] Overloading Methods
+- [ ] Enumerations
+- [ ] Inheritance
 
 ## Viewcounter
 
