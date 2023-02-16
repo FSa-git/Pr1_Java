@@ -11,7 +11,14 @@ public class SparKonto extends Bankkonto {
 	}
 	
 	public void zinsenAnrechnen() {
-		this.kontoStand = (this.kontoStand/100) * (100 + this.zinsSatz);
+		this.kontoStand = (this.kontoStand/100);
 	}
 	
+	@Override public void auszahlen(double x) {
+		this.kontoStand += x - this.gebuehr;
+	}
+
+	
 }
+
+
