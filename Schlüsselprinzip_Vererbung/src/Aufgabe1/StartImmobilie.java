@@ -1,6 +1,10 @@
 package Aufgabe1;
 
+import java.text.DecimalFormat;
+
 // Projektname: projektImmoGmbH
+
+
 
 public class StartImmobilie {
 
@@ -11,9 +15,10 @@ public class StartImmobilie {
 		
 		haus2.setGrundstücksflaeche(450);
 
+		DecimalFormat dm = new DecimalFormat("0.00");
 		
-		System.out.println(haus1.getOrt()+" Bauhjahr "+haus1.getBaujahr()+", "+"Wohnfläche "+haus1.getWohnflaeche()+" Quadratmeter,"+" Preis "+haus1.getPreis()+" €");
-		System.out.println(haus2.getOrt()+" Bauhjahr "+haus2.getBaujahr()+", "+"Wohnfläche "+haus2.getWohnflaeche()+" Quadratmeter,"+" Preis "+haus2.getPreis()+" €, "+haus2.getGrundstücksflaeche()+" qm");
+		System.out.println(haus1.getOrt()+" Bauhjahr "+haus1.getBaujahr()+", "+"Wohnfläche "+haus1.getWohnflaeche()+" Quadratmeter,"+" Preis "+dm.format(haus1.getPreis())+" €");
+		System.out.println(haus2.getOrt()+" Bauhjahr "+haus2.getBaujahr()+", "+"Wohnfläche "+haus2.getWohnflaeche()+" Quadratmeter,"+" Preis "+dm.format(haus2.getPreis())+" €, "+haus2.getGrundstücksflaeche()+" qm");
 	}
 
 }
