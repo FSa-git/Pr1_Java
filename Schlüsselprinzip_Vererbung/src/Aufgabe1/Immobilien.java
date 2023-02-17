@@ -5,9 +5,18 @@ public class Immobilien {
 	private String ort;
 	private int baujahr;
 	private int wohnflaeche;
-	private int preis;
+	private double preis;
+	private int grundstücksflaeche;
 	
-	public Immobilien(String ort, int baujahr, int wohnflaeche, int preis) {
+	public int getGrundstücksflaeche() {
+		return grundstücksflaeche;
+	}
+
+	public void setGrundstücksflaeche(int grundstücksflaeche) {
+		this.grundstücksflaeche = grundstücksflaeche;
+	}
+
+	public Immobilien(String ort, int baujahr, int wohnflaeche, double preis) {
 		this.ort = ort;
 		this.baujahr = baujahr;
 		this.wohnflaeche = wohnflaeche;
@@ -15,7 +24,7 @@ public class Immobilien {
 	}
 
 	public String getOrt() {
-		return ort;
+		return ort + ",";
 	}
 
 	public void setOrt(String ort) {
@@ -30,20 +39,20 @@ public class Immobilien {
 		this.baujahr = baujahr;
 	}
 
+	public double getPreis() {
+		return preis;
+	}
+
+	public void setPreis(double preis) {
+		this.preis = preis;
+	}
+
 	public int getWohnflaeche() {
 		return wohnflaeche;
 	}
 
 	public void setWohnflaeche(int wohnflaeche) {
 		this.wohnflaeche = wohnflaeche;
-	}
-
-	public int getPreis() {
-		return preis;
-	}
-
-	public void setPreis(int preis) {
-		this.preis = preis;
 	}
 	
 	
