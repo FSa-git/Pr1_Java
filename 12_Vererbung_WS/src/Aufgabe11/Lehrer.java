@@ -4,7 +4,7 @@ public class Lehrer extends Schulverwaltungssoftware{
 
 	private String uFach;
 	
-	public Lehrer(int alter, String uFach) {
+	public Lehrer(String name, int alter, String uFach) {
 		super(name, alter);
 		this.uFach = uFach;
 	}

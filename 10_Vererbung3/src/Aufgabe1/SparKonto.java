@@ -4,6 +4,7 @@ public class SparKonto extends Bankkonto {
 
 
 	private double zinsSatz;
+	private double gebuehr;
 	
 	public SparKonto(double anfangsBetrag, double zinsSatz) {
 		super(anfangsBetrag);
@@ -14,7 +15,7 @@ public class SparKonto extends Bankkonto {
 		this.kontoStand = (this.kontoStand/100);
 	}
 	
-	@Override public void auszahlen(double x) {
+	public void auszahlen(double x) { // @Override?
 		this.kontoStand += x - this.gebuehr;
 	}
 
