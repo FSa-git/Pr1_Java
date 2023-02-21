@@ -5,7 +5,7 @@ public class Parameteruebergabe {
 	public static void main(String[] args) {
 		
 		// Standardkonstruktor 
-		Point pointA = new Point();
+		Point pointA = new Point(2,3);
 		Point pointB = new Point(94,172);
 
 		pointA.move(45, 82);
