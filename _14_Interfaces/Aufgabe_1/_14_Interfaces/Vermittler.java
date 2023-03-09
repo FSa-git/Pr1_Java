@@ -1,10 +1,17 @@
 package _14_Interfaces;
 
+import java.util.Vector;
+
 public class Vermittler implements NachrichtenEmpfaenger, NachrichtenQuelle{
 
+	Vector<Vermittler> MeineVermittlerObjs = new Vector <Vermittler>();
+	
+	// Man ist gezwungen die Methoden von dem Interface zu implementieren
+	
 	@Override
 	public void anmelden(NachrichtenEmpfaenger empf) {
-		// TODO Auto-generated method stub
+		// neue Zuhörer zu der Liste:
+		MeineVermittlerObjs.add(empf);
 		
 	}
 
@@ -15,15 +22,20 @@ public class Vermittler implements NachrichtenEmpfaenger, NachrichtenQuelle{
 	}
 
 	@Override
-	public void sendeNachricht(String Nachricht) {
-		// TODO Auto-generated method stub
+	public void sendeNachricht(String nachricht) {
+		// Gebe Nachricht an alle angemeldeten Personen weiter
+		for (int i = 0; i < MeineVermittlerObjs.size(); i++) {
+			NachrichtenEmpfaenger ref = MeineVermittlerObjs.elementAt(i);
+			ref.empfangeNachrichten(nachricht);
+			System.out.println(" Vermittler sende: " + i);
+		}
 		
 	}
 
 	@Override
 	public void empfangeNachrichten(String nachricht) {
-		// TODO Auto-generated method stub
-		
+		System.out.println("____Vermittler empfaengt Nachricht und sendet die weiter___");
+		sendeNachricht(nachricht);
 	}
 
 	
