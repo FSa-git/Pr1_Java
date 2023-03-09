@@ -1,6 +1,6 @@
 package _14_Interfaces;
 
-java.util.Vector:
+java.util.Vector;
 
 public class Vector {
 	// kann beliebig viele Objekte speichern
