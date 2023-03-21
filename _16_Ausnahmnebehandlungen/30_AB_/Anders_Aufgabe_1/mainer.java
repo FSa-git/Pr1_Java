@@ -8,6 +8,12 @@ public class mainer {
 		
 		System.out.println("Bitte gebe deinen Wert hier ein: ");
 		
+		try {
+			System.out.println(gewicht);
+		}
+		catch(Exception e){
+			
+		}
 	}
 	
 	private static double berechneWurzel(double zahl1) {
