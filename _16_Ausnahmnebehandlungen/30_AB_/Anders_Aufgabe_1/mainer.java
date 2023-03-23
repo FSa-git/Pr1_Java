@@ -9,7 +9,7 @@ public class mainer {
 		System.out.println("Bitte gebe deinen Wert hier ein: ");
 		
 		try {
-			System.out.println(gewicht);
+			System.out.println();
 		}
 		catch(Exception e){
 			
