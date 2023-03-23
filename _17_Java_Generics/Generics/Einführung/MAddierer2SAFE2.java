@@ -10,7 +10,7 @@ public class MAddierer2SAFE2 {
 		int sum = 0;
 		Integer zahl1 = 100; 
 		String name = "eins";
-		List<Integer> myList = new Vector<Integer>(); // In spitzen Klammern kommt die Klasse 
+		List<Integer> myList = new Vector<Integer>(); // In spitzen Klammern kommt die Klasse, nur wenn was zu der Klasse gehört darf man rein, sonst wird man rausgeworfen
 		
 		// 
 		myList.add(zahl1);
