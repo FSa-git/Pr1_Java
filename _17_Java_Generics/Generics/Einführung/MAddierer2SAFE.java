@@ -30,7 +30,7 @@ public class MAddierer2SAFE {
 		
 		for (Object timoobject : myList ) {
 			if (timoobject instanceof Integer) {
-				result = result + ((Integer) timoobject).intValue();
+				result = result + ((Integer) timoobject).intValue(); // Die Hosenträger, früher hat man das gemacht..
 			}else {
 				throw new ClassCastException("Keine Liste von Integern");
 			}
