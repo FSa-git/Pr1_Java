@@ -31,13 +31,16 @@ public class FigureContainerTestDriver {
 		
 		
 		System.out.println("Anzahl der Elemente : " + container.size() );
-		System.out.println("Enthält id 42		: " + container.contains(42) );
+		System.out.println("Enthält id 42?		: " + container.contains(42) );
 		System.out.println("-- Objekt 			: " + container.getFigure(42) );
 		System.out.println("Enthält id 8015 	: " + container.contains(8015) );
 		System.out.println("-- Objekt 			: " + container.getFigure(8015) );
 		
 		int count = 0;
+		
+		// Hier wird der Iterator gezeigt
 		Iterator itr = container.iterator();
+		
 		while(itr.hasNext()) {
 			itr.next();
 			count++;
@@ -46,5 +49,8 @@ public class FigureContainerTestDriver {
 		
 		container.drawAll();
 	}
+	// Itarator ist ein Zeiger und man kann durch wie bei einer for each schleife 
+	// Performance wie bei einer For each Schleife aber die Performance ist besser? 
+	// Itaretor bewegt sich besser durch 
 	
 }

@@ -6,6 +6,7 @@ import java.util.Vector;
 
 public class FigureContainer {
 
+	// Die Spitze ist die Klasse auf die wir zugreifen (Türstehermaus)
 	private List<Figure> figures;
 
     public FigureContainer () {
@@ -33,7 +34,8 @@ public class FigureContainer {
         }
         return false;
     }
-
+    // Iterator ist ..
+    
     public Iterator<Figure> iterator () {
         return this.figures.iterator();
     }
