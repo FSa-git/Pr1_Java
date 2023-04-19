@@ -8,7 +8,7 @@ public class KFZMapping {
 	
 	private static HashMap<String, String> map = new HashMap<String, String>(); //Key und Value, Map ist hier ein Merker
 
-	public static void insert (String kennzeichen, String Landkreis)
+	public static void insert (String kennzeichen, String Landkreis) // Methode
 	{
 		map.put(kennzeichen, Landkreis);
 	}
